@@ -1,0 +1,4 @@
+WUP2018-F22-Cities_Over_300K_Annual.csv filter=lfs diff=lfs merge=lfs -text
+mer2005sum.asc filter=lfs diff=lfs merge=lfs -text
+natural_earth_world_small.geo.json filter=lfs diff=lfs merge=lfs -text
+GDP_PPP_1990_2015_5arcmin_v2.nc filter=lfs diff=lfs merge=lfs -text
