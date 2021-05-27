@@ -1,0 +1,30 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pyephem = "*"
+numpy = "*"
+scipy = "*"
+networkx = "*"
+plotly = "*"
+pandas = "*"
+scikit-learn = "*"
+matplotlib = "*"
+antiprism-python = "*"
+geopy = "*"
+netcdf4 = "*"
+compress-pickle = "*"
+icarus_simulator = {path = "."}
+sat_plotter = {path = "."}
+requests = "*"
+shapely = "*"
+
+[requires]
+python_version = "3.6"
+
+[pipenv]
+allow_prereleases = true
